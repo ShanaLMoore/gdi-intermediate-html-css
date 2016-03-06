@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+
+    div{
+      border: 2px solid #000;
+      padding: 15px;
+      width: 600px;
+      height: 50px;
+      margin: 40px auto;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .left-right{
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, red , yellow); /* Standard syntax */        
+    }
+
+    .top-bottom {
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(red, yellow); /* Standard syntax */
+    }
+
+    .diagonal{
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
+    }
+
+    .multiple-colors{
+      background: red; /* For browsers that do not support gradients */
+      /* For Safari 5.1 to 6.0 */
+      background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+      /* For Opera 11.1 to 12.0 */
+      background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+      /* For Fx 3.6 to 15 */
+      background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+      /* Standard syntax */
+      background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    }
+
+    .radial{
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-radial-gradient(red, yellow, green); /* Safari 5.1 to 6.0 */
+      background: -o-radial-gradient(red, yellow, green); /* For Opera 11.6 to 12.0 */
+      background: -moz-radial-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+      background: radial-gradient(red, yellow, green); /* Standard syntax */
+    }
+  </style>
+</head>
+<body>
+  <div class="left-right">Linear Left to Right</div>
+  <div class="top-bottom">Linear Top to Bottom</div>
+  <div class="diagonal">Diagonal Linear</div>
+  <div class="multiple-colors">Multiple Color Gradient</div>
+  <div class="radial">Radial Gradient</div>
+</body>
+</html>
