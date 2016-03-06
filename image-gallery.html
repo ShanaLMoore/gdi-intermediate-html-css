@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
 <head>
-  <title></title>
+  <title>Flowers</title>
   <link href='https://fonts.googleapis.com/css?family=Eagle+Lake' rel='stylesheet' type='text/css'>
   <style type="text/css">
-  body{
+
+  body {
     background-color: #d4d0c6;
     color: #665544;
     background-image: url('images/backdrop.gif');
@@ -14,8 +15,30 @@
 
   figure {
     width: 202px;
-    height: 170px;
+    height: 180px;
     background-color: #e7e3d8;
+    padding: 9px;
+  }
+
+  figure img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid tan;
+    margin: 0px;
+/*    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;*/
+    transition: all 0.5s ease;    
+  }
+
+  figure img:hover {
+/*    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);*/
+    transform:rotate(-10deg); 
+  /*  border-radius: 50%; */  
   }
 
   .header {
@@ -26,9 +49,14 @@
     height: 220px;
     width: 198px;
     float: left;
+    margin: 10px;
+    padding: 10px;
   }
 
-
+.wrapper {
+  width: 720px
+  margin: 0px auto;
+}
   </style>
 </head>
 <body>
